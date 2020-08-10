@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    cache: false
+
+nature:
+  restApi:
+    enabled: true
+
+application:
+  name: 测试接口
+  version: 1.0.0
+  description: 测试项目

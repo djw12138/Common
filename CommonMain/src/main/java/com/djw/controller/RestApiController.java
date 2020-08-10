@@ -5,6 +5,7 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -19,5 +20,16 @@ public class RestApiController {
     @GetMapping("getTest")
     public String getTest(String name, Integer age) {
         return name + age;
+    }
+
+    @ApiOperation(value = "登录测试接口", notes = "登录测试接口")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "userName", value="用户名", required = true, dataTypeClass = String.class),
+            @ApiImplicitParam(name = "passWord", value="密码", required = true, dataTypeClass = String.class),
+    })
+    
+    @PostMapping("loginTest")
+    public String loginTest(String userName, String passWord) {
+        return "test";
     }
 }

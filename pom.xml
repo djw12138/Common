@@ -10,6 +10,7 @@
     <modules>
         <module>CommonUtil</module>
         <module>CommonMain</module>
+        <module>HttpTest</module>
     </modules>
     <packaging>pom</packaging>
 

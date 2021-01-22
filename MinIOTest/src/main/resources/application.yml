@@ -10,8 +10,8 @@ spring:
 minio:
   endpoint: 10.70.151.109
   port: 9000
-  accessKey: minioadmin
-  secretKey: minioadmin
+  accessKey: minio
+  secretKey: minio
   secure: false
   bucketName: "gym"
   configDir:

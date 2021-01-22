@@ -8,6 +8,7 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.Bean;
+import org.springframework.security.config.annotation.web.configurers.HeadersConfigurer;
 
 import java.awt.*;
 import java.util.*;

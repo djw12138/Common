@@ -11,6 +11,8 @@
         <module>CommonUtil</module>
         <module>CommonMain</module>
         <module>HttpTest</module>
+        <module>WxTest</module>
+        <module>MinIOTest</module>
     </modules>
     <packaging>pom</packaging>
 

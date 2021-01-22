@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  servlet:
+    multipart:
+      maxFileSize: 500MB
+      maxRequestSize: 500MB
+
+minio:
+  endpoint: 10.70.151.109
+  port: 9000
+  accessKey: minioadmin
+  secretKey: minioadmin
+  secure: false
+  bucketName: "gym"
+  configDir:

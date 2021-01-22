@@ -1,0 +1,7 @@
+server:
+  port: 8090
+
+application:
+  name: 微信测试项目
+  version: 1.0.0
+  description: 微信测试项目

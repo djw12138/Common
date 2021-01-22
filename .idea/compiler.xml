@@ -2,13 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CommonMain" />
         <module name="HttpTest" />
+        <module name="MinIOTest" />
         <module name="CommonUtil" />
+        <module name="WxTest" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,6 +20,8 @@
       <module name="CommonMain" options="-parameters" />
       <module name="CommonUtil" options="-parameters" />
       <module name="HttpTest" options="-parameters" />
+      <module name="MinIOTest" options="-parameters" />
+      <module name="WxTest" options="-parameters" />
     </option>
   </component>
 </project>

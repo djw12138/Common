@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/CommonMain/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CommonUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DemoTest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HttpTest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MinIOTest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WxTest/src/main/java" charset="UTF-8" />

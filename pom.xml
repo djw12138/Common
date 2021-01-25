@@ -13,6 +13,7 @@
         <module>HttpTest</module>
         <module>WxTest</module>
         <module>MinIOTest</module>
+        <module>DemoTest</module>
     </modules>
     <packaging>pom</packaging>
 

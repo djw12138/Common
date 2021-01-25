@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CommonMain" />
         <module name="HttpTest" />
         <module name="MinIOTest" />
+        <module name="DemoTest" />
         <module name="CommonUtil" />
         <module name="WxTest" />
+        <module name="CommonMain" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CommonMain" options="-parameters" />
       <module name="CommonUtil" options="-parameters" />
+      <module name="DemoTest" options="-parameters" />
       <module name="HttpTest" options="-parameters" />
       <module name="MinIOTest" options="-parameters" />
       <module name="WxTest" options="-parameters" />
